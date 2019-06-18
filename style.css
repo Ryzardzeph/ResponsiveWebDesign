@@ -1,33 +1,43 @@
-body{
-    font-size: 16px;
+.contenedor-imagen-pequena,
+.contenedor-imagen-grande {
+    background-color: darkslategray;
+    max-width:450px;
 }
-p{
-    font-size: 1.5em;
+img{
+    width: 100%;
+    
+    max-width: 450px;
 }
-.box{
-    font-size:2em;
-}
-
-*{
-    margin:0px;
-    padding: 0px;
-}
-
-.contenedor{
-    background-color: darkcyan;
-    width: 80%;
-    height: 100%;
-    margin: 0auto;
-    padding: 1em;
+.contenedor-imagen-pequena:hover{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-.columna{
-    background-color: antiquewhite;
-    height:30px;
-    margin-bottom: 1em;
+
+.contenedor-imagen-grande:hover {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+} 
+
+
+
+video{
+    width: 70%;
+
 }
-.primera{width: 100%;}
-.segunda{width: 50%;}
-.tercera{width: 25%;}
-.cuarta{width: 75%;}
-.quinta{width: 10%;}
+.contenedor-video {
+          padding-bottom: 56.25%;
+          height:0;
+          overflow: hidden;
+          position: relative;
+}
+
+iframe{
+    position: absolute;
+    height: 70%;
+    width: 70%;
+    top:0;
+    left:0;
+}
