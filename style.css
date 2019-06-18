@@ -1,0 +1,33 @@
+body{
+    font-size: 16px;
+}
+p{
+    font-size: 1.5em;
+}
+.box{
+    font-size:2em;
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.contenedor{
+    background-color: darkcyan;
+    width: 80%;
+    height: 100%;
+    margin: 0auto;
+    padding: 1em;
+}
+
+.columna{
+    background-color: antiquewhite;
+    height:30px;
+    margin-bottom: 1em;
+}
+.primera{width: 100%;}
+.segunda{width: 50%;}
+.tercera{width: 25%;}
+.cuarta{width: 75%;}
+.quinta{width: 10%;}
